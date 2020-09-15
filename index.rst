@@ -138,7 +138,7 @@ Spares
 
 As we expect that the warranty either has or will soon expire an many of the
 systems being migrated, ~10% should be reseved as online "hot spares" and/or to
-be canibalized for parts.
+be cannibalized for parts.
 
 
 Provisioning
