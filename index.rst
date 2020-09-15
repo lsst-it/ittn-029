@@ -51,8 +51,18 @@ Collect Information
 Identify hardware which needs to be relocated
 ---------------------------------------------
 
-* Create a manifest of AURA inventory tags, Dell service tags, and the BMC and
-  first interface MAC addresses.
+.. raw:: html
+
+   <s>
+
+Create a manifest of AURA inventory tags, Dell service tags, and the BMC and
+first interface MAC addresses.
+
+.. raw:: html
+
+   </s>
+
+`Manifest created by Bill Glick <https://docs.google.com/spreadsheets/d/13x9k6B36t5i45mAN6YvDYasW0LVtuF6NNW5x1qleno4/edit#gid=0>`_
 
 Identify users impacted
 -----------------------
