@@ -108,6 +108,59 @@ Physical Shipment
 Packing materials, shipment logistics, and scheduling labor will need to be
 coordinated with and largely lead by NCSA.
 
+Shipment Cost Estimate
+----------------------
+
+Assumptions:
+
+* ~50 servers total
+* On average, a server will fit in a 1'x2'x3' box / 6 ft^3 per server
+* On average, the combined weight of server + packaging will be 75lbs or less.
+* 1 "dimensional lbs" == 139"^3
+
+Estimated Weight/Volume:
+
+======= ==========
+Unit    value
+======= ==========
+weight  3750 lbs
+volume  300 ft^3
+======= ==========
+
+Per the Tucson Logistics and Property Supervisor 2020-09-15: Fedex Ground is
+~$10 per server for shipping from IL to AZ.
+
+Cost NCSA -> Tucson: ~$500
+
+Per the Tucson Logistics and Property Supervisor 2020-09-15: Air freight from
+Tucson to La Serena is $6 per dimensional lb.
+
+Cost Tucson -> La Serena:
+
+====================== ==========
+Cost basis             $
+====================== ==========
+By weight              ~$22,500
+By dimensional weight  ~$22,377
+====================== ==========
+
+This company sells 1U and 2U server shipping boxes for $125/ea delivered:
+
+https://www.servershippingbox.com/
+
+Which would work out to a charge of $6,250 to buy all new boxes.
+
+Cost Summary:
+
+==================== ===========
+Item                 Cost
+==================== ===========
+NCSA -> Tucson       ~$500
+Tucson -> La Serena  ~$22,500
+Packaging Materials  ~$6,250
+Total                ~$29,250
+==================== ===========
+
 
 Define Teststand(s) to be located at the BDC
 ============================================
