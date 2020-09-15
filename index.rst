@@ -35,6 +35,15 @@ tear down and have equipment in transit over the "new year", it may help to
 minimize the disruption as this is a period of time in which many staff are
 expected to take leave.
 
+This is intended sequence of steps to plan and execute a teststand relocation:
+
+* Collect Information
+* Define Teststand(s)
+* Transfer Data to BDC
+* Establish Interim Teststand(s)
+* Ship hardware to BDC
+* Install hardware
+* Provision hardware
 
 Collect Information
 ===================
