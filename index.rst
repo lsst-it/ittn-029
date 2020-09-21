@@ -4,36 +4,40 @@ Introduction
 ============
 
 The current Teststand housed at NCSA is to be logically and physical relocated
-to the base data center (BDC) in La Serena.  As the movement of hardware will be
-inherently disruptive to ongoing development activities, we believe that a review
-should be made of the requirements for the eventual Teststands that are
-envisioned to be located both at the BDC and in Tucson.  This would allow use
-to reevaluate and reallocate our current computing resources while identify any
-equipment which needs to be procured. An interim Teststand plan will be needed
-in order to maintain development while key equipment (E.g., a DAC) is in
-transit.  Interim resources will need to be place prior to commencing tear down
-at NCSA.
+to the base data center (BDC) in La Serena.  At a minimum, the "full size" DAQ
+will have to be physically moved.  The relocation may be achieved by purchasing
+new servers, moving existing servers or a combination of the two.  There are
+capital cost and schedule impacts with either approach which need to be
+weighed. As the movement of hardware will be inherently disruptive to ongoing
+development activities, we believe that a review should be made of the
+requirements for the eventual Teststands that are envisioned to be located both
+at the BDC and in Tucson.  This would allow use to reevaluate and reallocate
+our current computing resources while identifying any equipment which needs to
+be procured. An interim Teststand plan will be needed in order to maintain
+development while key equipment (E.g., a DAC) is in transit.  Interim resources
+will need to be place prior to commencing tear down at NCSA.
 
-Rather than attempting to identically replicate the Teststand as it is
-currently envisioned at NCSA, which would be labor intensive and require at
-least some level of manual reconfiguration of each host, we plan to
-re-provision each host from scratch upon arrival at the BDC.  This will necessitate
-identifying data which needs to be preserved within the existing Teststand.
-Instead of entrusting this data to to "snail mail", it should be copied in
-advance via the long haul network (LHN).
+Rather than attempting to identically replicate the state of hosts in the
+Teststand as it is currently envisioned at NCSA, which would be labor intensive
+and require at least some level of manual reconfiguration of relocated hosts,
+we plan to re-provision any migrated host from scratch upon arrival at the BDC.
+This will necessitate identifying data which needs to be preserved within the
+existing Teststand.  Instead of entrusting this data to to "snail mail", it
+should be copied in advance via the long haul network (LHN).
 
 It appears plausible that it would take ~3 months from the time a tear down is
-commenced at NCSA until the hosts are again available for development usage at
-the BDC. We believe this necessitates at least a functional auxtel Teststand in
-Tucson and possibly the reallocation of resources at the BDC in order to
-supplement the current Kueyen on Antu kubernetes clusters.  It is already known
-that new equipment will be required in order to build a functional Teststand
-environment in Tucson.  If the procurement process is started before the end of
-September, 2020 it is conceivable that the new standard will be available prior
-to the start of the CY 2020 "holiday season".  If NCSA is able to complete a
-tear down and have equipment in transit over the "new year", it may help to
-minimize the disruption as this is a period of time in which many staff are
-expected to take leave.
+commenced at NCSA until a relocate host would again be available for
+development usage at the BDC.  The time table is closer to ~5 months for
+relocating a DAQ.  We believe this necessitates at least a functional
+auxtel/comcam Teststand in Tucson and possibly the reallocation of resources at
+the BDC in order to supplement the current Kueyen on Antu kubernetes clusters.
+It is already known that new equipment will be required in order to build a
+functional Teststand environment in Tucson.  If the procurement process is
+started before the end of September, 2020 it is conceivable that the new
+standard will be available prior to the start of the CY 2020 "holiday season".
+If NCSA is able to complete a tear down and have equipment in transit over the
+"new year", it may help to minimize the disruption as this is a period of time
+in which many staff are expected to take leave.
 
 This is intended sequence of steps to plan and execute a teststand relocation:
 
@@ -41,7 +45,7 @@ This is intended sequence of steps to plan and execute a teststand relocation:
 * Define Teststand(s)
 * Transfer Data to BDC
 * Establish Interim Teststand(s)
-* Ship hardware to BDC
+* Ship to and/or order for the BDC
 * Install hardware
 * Provision hardware
 
