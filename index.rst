@@ -95,46 +95,6 @@ Identify resources within the BDC for data storage and coordinate with NCSA for
 data transfers.  Where possible, a digest should be used to verify the
 integrity of the copy.
 
-Transition Schedule
-===================
-
-It is estimated that teststand hardware will be unavailable for ~3 months
-starting from the point at which the transfer of any data which needs to be
-preserved is complete and the "Interium Teststand(s)" are avaiable.
-
-Servers
--------
-
-============================== =============
-Activity                       Time Estimate
-============================== =============
-tear down and packaging @NCSA  2 weeks
-transit NCSA -> Tucson         1 week
-transit Tucson -> La Serena    2-3 weeks
-pallets moved into BDC         1 week
-racking and stacking @BDC      2 weeks
-provisioning                   2 weeks
-schedule slack                 2 weeks
-total                          12-13 weeks
-============================== =============
-
-DAQ(s)
-------
-
-============================== =============
-Activity                       Time Estimate
-============================== =============
-tear down and packaging @NCSA  2 weeks
-transit NCSA -> SLAC           1 week
-time at SLAC                   8 weeks
-transit SLAC -> Tucson         1 week
-transit Tucson -> La Serena    2-3 weeks
-pallets moved into BDC         1 week
-racking and stacking @BDC      1 week
-provisioning                   1 week
-schedule slack                 2 weeks
-total                          19-20 weeks
-============================== =============
 
 
 Interium Teststand(s)
@@ -154,17 +114,58 @@ Physical Shipment
 Packing materials, shipment logistics, and scheduling labor will need to be
 coordinated with and largely lead by NCSA.
 
+Transit Time
+------------
+
+It is estimated that relocated teststand hardware will be unavailable for ~3
+months, ~5 months for a DAQ, starting from the point at which the transfer of
+any data which needs to be preserved is complete and the "Interium
+Teststand(s)" are available.
+
+Servers
+^^^^^^^
+
+============================== =============
+Activity                       Time Estimate
+============================== =============
+tear down and packaging @NCSA  2 weeks
+transit NCSA -> Tucson         1 week
+transit Tucson -> La Serena    2-3 weeks
+pallets moved into BDC         1 week
+racking and stacking @BDC      2 weeks
+provisioning                   2 weeks
+schedule slack                 2 weeks
+total                          12-13 weeks
+============================== =============
+
 DAQ(s)
-------
+^^^^^^
 
 The DAQ(s) will need to take a different course from the servers and first be
 from NCSA directly to SLAC for a firmware upgrade and to debug interface
 errors.  Once these tasks are complete, the DAQ(s) will be shipped to Tucson to
 be sent on to La Serena.
 
+============================== =============
+Activity                       Time Estimate
+============================== =============
+tear down and packaging @NCSA  2 weeks
+transit NCSA -> SLAC           1 week
+time at SLAC                   8 weeks
+transit SLAC -> Tucson         1 week
+transit Tucson -> La Serena    2-3 weeks
+pallets moved into BDC         1 week
+racking and stacking @BDC      1 week
+provisioning                   1 week
+schedule slack                 2 weeks
+total                          19-20 weeks
+============================== =============
 
-Shipment Cost Estimate
-----------------------
+Cost
+----
+
+Servers
+^^^^^^^
 
 Assumptions:
 
