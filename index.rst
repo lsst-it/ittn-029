@@ -107,6 +107,16 @@ combination of rescheduling activities, reallocation of existing resources in
 Tucson and/or the BDC, acquisition of new resources, or making use of public
 cloud(s).
 
+Tucson
+------
+
+* order cabinet + PDUS (requistioned on 2020-09-17)
+* order switches
+* order kubernetes nodes
+* place cabinet + connect PDUs + install ToR switches
+* rackmount new k8s nodes
+* relocate existing servers into new cabinet
+* integrate DAQ
 
 Physical Shipment
 =================
