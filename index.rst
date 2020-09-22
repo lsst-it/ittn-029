@@ -227,6 +227,23 @@ Packaging Materials  ~$6,250
 Total                ~$29,250
 ==================== ===========
 
+New Server Cost Estimate
+========================
+
+If we elect to largely purchase new hardware for the BDC teststand, instead of
+relocate existing equipment.
+
+Assumptions
+
+* ~50 servers at BDC
+* average cost of $10,000 per server after freight, additional storage, etc.
+
+==================== ===========
+Item                 Cost
+==================== ===========
+50 servers           ~$500,000
+==================== ===========
+
 
 Define Teststand(s) to be located at the BDC
 ============================================
